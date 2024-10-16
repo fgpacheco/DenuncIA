@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/porcelain"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".activities.SelecaoCrimesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtLabelSelecaoCrime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Selecione um Crime"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/black" />
+
+        <!--  HOMOCÍDIO E ROUBO   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHomicidio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Homicídio"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnRoubo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Roubo"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!--  FEMINCÍDIO E LATROCÍNIO   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFeminicidio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Feminicídio"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnLatrocinio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Latricínio"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!--  INCÊNDIO E AMBIENTAL  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnIncedioOnibus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Incêncio a Ônibus"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnAmbiental"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Crime Ambiental"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!--  VANDALISMO E ESTUPRO  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVandalismo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Vandalismo"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEstupro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:text="Estupro"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
