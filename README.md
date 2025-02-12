@@ -1,1 +1,3 @@
 # DenuncIA
+
+Este projeto faz uso da API do OpenAI para obter respostas de perguntas relacionadas a crimes
